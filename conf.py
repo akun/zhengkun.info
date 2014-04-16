@@ -115,7 +115,7 @@ html_theme_options  = {
     'navbar_pagenav': False,
     'globaltoc_includehidden': "true",
     'source_link_position': 'footer',
-    'bootswatch_theme': 'slate',
+    'bootswatch_theme': 'readable',  # more theme: http://bootswatch.com/
 }
 
 # Add any paths that contain custom themes here, relative to this directory.
