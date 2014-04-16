@@ -1,6 +1,10 @@
 zhengkun.org
 ============
 
+.. image:: https://travis-ci.org/akun/zhengkun.info.svg
+   :target: https://travis-ci.org/akun/zhengkun.info
+   :alt: Build Status
+
 Personal Website: http://zhengkun.info/
 
 License
