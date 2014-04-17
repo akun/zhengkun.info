@@ -1,5 +1,6 @@
 MAKE = make
 DOCDIR = docs
+BUILDDIR = blog/html
 
 install:
 	pip install -r requirements.txt
@@ -8,7 +9,7 @@ build:
 	curl -X POST http://readthedocs.org/build/zhengkun
 
 html:
-	cd $(DOCDIR) && $(MAKE) clean && $(MAKE) html
+	cd $(DOCDIR) && tinker --build
 
 run:
-	cd $(DOCDIR) && $(MAKE) run PORT=$(PORT)
+	cd $(DOCDIR)/$(BUILDDIR) && python -m SimpleHTTPServer $(port)
