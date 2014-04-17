@@ -2,5 +2,6 @@
 *.pyc
 bin
 blog
+drafts
 include
 lib
