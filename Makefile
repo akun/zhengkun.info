@@ -12,4 +12,4 @@ build:
 	curl -X POST http://readthedocs.org/build/zhengkun
 
 run:
-	cd $(DOCDIR)/$(BUILDDIR) && python -m SimpleHTTPServer $(port)
+	cd $(DOCDIR) && python -m SimpleHTTPServer $(port)
