@@ -4,4 +4,37 @@ Sitemap
 .. toctree::
    :maxdepth: 1
 
+   2014/03/28/do-opensource-project-will-use-some-service/index
+   2014/02/20/howto-code-review/index
+   2014/02/10/sphinx-doc/index
+   2014/02/07/svn-usage/index
+   2013/09/01/vcs-svn/index
+   2013/06/18/pylint-ignore-django-i18n-error/index
+   2013/06/04/unittest-in-python/index
+   2013/05/23/who-is-user/index
+   2013/05/21/hello-unittest/index
+   2011/12/23/marty-cagan-talk-produc/index
+   2011/11/28/requirements/index
+   2011/09/22/live-yes-or-no/index
+   2011/09/22/just-copyright/index
+   2011/09/22/exception-handling/index
+   2011/07/22/fork-child/index
+   2011/07/19/django-big-file-download/index
+   2011/06/12/keyboard-sleep/index
+   2011/06/03/just-read-collective-wisdom-from-the-experts-for-fun/index
+   2011/05/28/code-under-the-moon/index
+   2011/04/25/the-boy-scout-rule/index
+   2011/04/25/bug-feature/index
+   2011/04/09/2-rabbit/index
+   2011/03/24/egg-pain/index
+   2011/03/23/sleep-is-important/index
+   2011/03/22/max-vs-min/index
+   2011/03/21/menstrual/index
+   2011/03/20/steal-tao/index
+   2011/03/19/3-idiot/index
+   2011/03/18/sb/index
+   2011/03/17/plan/index
+   2011/03/16/the-death-of-faith/index
+   2011/03/15/what-is-sigh/index
+   2011/03/14/it-is-my-pleasure/index
    2011/03/13/hello-world/index
