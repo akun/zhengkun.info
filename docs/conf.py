@@ -23,7 +23,7 @@ author = 'akun'
 
 # Change this to your copyright string
 year = datetime.datetime.now().year
-copyright = '1985-%d, %s' %(year, author)
+copyright = '1985-%d, %s' % (year, author)
 
 # Change this to your blog root URL (required for RSS feed)
 website = 'http://zhengkun.info/'
