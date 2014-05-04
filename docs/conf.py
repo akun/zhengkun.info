@@ -22,7 +22,8 @@ description = 'This is an awesome blog'
 author = 'akun'
 
 # Change this to your copyright string
-copyright = '1985-%d, %s' %(datetime.datetime.now().year, author)
+year = datetime.datetime.now().year
+copyright = '1985-%d, %s' %(year, author)
 
 # Change this to your blog root URL (required for RSS feed)
 website = 'http://zhengkun.info/'
@@ -47,10 +48,18 @@ html_theme_options = {}
 
 # Link to RSS service like FeedBurner if any, otherwise feed is
 # linked directly
-rss_service = None
+rss_service = 'feed.atom'
 
 # Generate full posts for RSS feed even when using "read more"
 rss_generate_full_posts = False
+
+# Set rss_max_items to the number of items to include in the feed,
+# or 0 to include everything.
+rss_max_items = 0
+
+# rutherford config
+blog_date = year
+rights = 'This work is licensed under a Creative Commons Attribution 4.0 License: http://creativecommons.org/licenses/by/4.0/'
 
 # Number of blog posts per page
 posts_per_page = 10
@@ -63,7 +72,7 @@ slug_word_separator = '_'
 # **************************************************************
 
 # Add other Sphinx extensions here
-extensions = ['tinkerer.ext.blog', 'tinkerer.ext.disqus']
+extensions = ['tinkerer.ext.blog', 'tinkerer.ext.disqus', 'rutherford']
 
 # Add other template paths here
 templates_path = ['_templates']
