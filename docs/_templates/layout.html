@@ -1,0 +1,11 @@
+{%- extends "boilerplate/layout.html" -%}
+
+{#- RSS link -#}
+{%- macro rss_link() -%}
+    <div class="rss">
+        <a href="{{ rss_feed_link }}" title="Subscribe via RSS">
+            {%- if rss_symbol -%}<span class="fa fa-lg fa-rss"></span>{%- endif -%}
+            {% if rss_link_text -%}{{ rss_link_text }}{% endif -%}
+        </a>
+    </div>
+{%- endmacro -%}
