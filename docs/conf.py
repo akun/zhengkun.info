@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+import datetime
+
 import tinkerer
 import tinkerer.paths
 
@@ -20,7 +22,7 @@ description = 'This is an awesome blog'
 author = 'akun'
 
 # Change this to your copyright string
-copyright = '1985, ' + author
+copyright = '1985-%d, %s' %(datetime.datetime.now().year, author)
 
 # Change this to your blog root URL (required for RSS feed)
 website = 'http://zhengkun.info/'
