@@ -1,11 +1,27 @@
 {%- extends "boilerplate/layout.html" -%}
 
-{#- RSS link -#}
-{%- macro rss_link() -%}
-    <div class="rss">
-        <a href="{{ rss_feed_link }}" title="Subscribe via RSS">
-            {%- if rss_symbol -%}<span class="fa fa-lg fa-rss"></span>{%- endif -%}
-            {% if rss_link_text -%}{{ rss_link_text }}{% endif -%}
-        </a>
-    </div>
-{%- endmacro -%}
+{%- block navigation -%}
+<nav role="navigation">
+  <ul>
+    {%- block quicklinks -%}
+      {%- if rss_in_page_nav -%}
+      <li class="quicklink">
+        <div class="rss">
+          <a href="{{ website }}feed.atom" title="Subscribe via RSS"><span class="fa fa-lg fa-rss"></span></a>
+          <a href="https://github.com/akun" title="My GitHub"><span class="fa fa-lg fa-github"></span></a>
+          <a href="http://weibo.com/kvntalk/" title="My Sina Weibo"><span class="fa fa-lg fa-weibo"></span></a>
+        </div>
+      </li>
+      {%- endif -%}
+    {%- endblock -%}
+    <li class="main-nav">
+      <a href="http://wiki.zhengkun.info/">Wiki</a>
+    </li>
+    {% for page in pages -%}
+      <li class="main-nav">
+        <a href="{{ pathto(page[0]) }}">{{ page[1]|e }}</a>
+      </li>
+    {% endfor -%}
+  </ul>
+</nav>
+{%- endblock -%}

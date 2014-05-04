@@ -38,3 +38,5 @@ Sitemap
    2011/03/15/what-is-sigh/index
    2011/03/14/it-is-my-pleasure/index
    2011/03/13/hello-world/index
+   pages/news
+   pages/about
