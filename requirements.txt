@@ -1,2 +1,2 @@
 Tinkerer>=1.4.2
-rutherford>=0.7
+rutherford>=0.7.1
