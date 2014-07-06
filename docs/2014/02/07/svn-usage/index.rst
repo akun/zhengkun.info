@@ -393,6 +393,6 @@ SVN客户端更新，使用新的SVN客户端了，有时候会发现本地工�
    这篇是个人总结的《软件构建实践》系列的一篇文章，更多更新内容，可以直接在线查看：http://pm.readthedocs.org。并且部分内容已经公布在GitHub上：https://github.com/akun/pm
 
 .. author:: default
-.. categories:: Project Project, vsc
+.. categories:: Project Project, vcs
 .. tags:: SVN, 程序员, 项目管理
 .. comments::
