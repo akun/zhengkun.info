@@ -4,6 +4,7 @@ Sitemap
 .. toctree::
    :maxdepth: 1
 
+   2014/07/06/how-to-understanding-vcs
    2014/03/28/do-opensource-project-will-use-some-service/index
    2014/02/20/howto-code-review/index
    2014/02/10/sphinx-doc/index
