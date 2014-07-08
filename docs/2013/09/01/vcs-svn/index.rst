@@ -23,7 +23,7 @@ trunk、branches、tags，这是一个项目在版本仓库中典型的目录布
 
 示例如下图：
 
-.. image:: http://zhengkun.info/wp-content/uploads/2013/09/SVN_tree_example2.png
+.. image:: http://wp.zhengkun.info/wp-content/uploads/2013/09/SVN_tree_example2.png
 
 不同版本仓库
 ~~~~~~~~~~~~
@@ -45,7 +45,7 @@ trunk、branches、tags，这是一个项目在版本仓库中典型的目录布
 
 针对上述几个问题，可以尝试下下图的模式，但需要配合几个其它实践，保证迭代质量。
 
-.. image:: http://zhengkun.info/wp-content/uploads/2013/09/SVN_small.png
+.. image:: http://wp.zhengkun.info/wp-content/uploads/2013/09/SVN_small.png
 
 上图的意思，还是2-4人的小团队，集中战力在trunk进行新版本研发+旧版本维护，只不过区别就是，到了上面说的觉得差不多了，新的大版本或旧版本的某个小版本代码稳定的时候，分出去一个发布分支，由1-2个人严格配合测试，在该分支上工作，有需要修复的缺陷，有人在trunk上修复了，可以直接把该修复merge到发布分支上。
 
@@ -62,7 +62,7 @@ trunk、branches、tags，这是一个项目在版本仓库中典型的目录布
 
 直接看图，跟上图很类似，区别就是，新特性研发trunk和旧特性维护branches分开来了，并且由2个小组分别负责：
 
-.. image:: http://zhengkun.info/wp-content/uploads/2013/09/SVN_normal.png
+.. image:: http://wp.zhengkun.info/wp-content/uploads/2013/09/SVN_normal.png
 
 * 红色外框代表小组1，一开始是新特性开发小组，该特性发布后，就变成旧特性维护小组了。
 * 蓝色外框代表小组2，一开始可能是旧特性维护小组，另一个小组进行维护他们开发的特性的时候，这个小组角色就变成新特性开发小组了。
@@ -96,7 +96,7 @@ trunk、branches、tags，这是一个项目在版本仓库中典型的目录布
 
 再更进一步，如果项目规模很大，需要参与的人员较多，这个时候代码管理需要更为严格，需要对代码提交要求严格，保持trunk足够稳定、足够干净，可能就会有很多分支出现，比如常见的特性分支，甚至是修复一个缺陷，也会开一个缺陷分支，经过严格的codereview后再merge到trunk或某个维护分支，该实践会牺牲一定的灵活性，给团队成员带来繁琐的感觉，并且迭代起来会慢，建议谨慎使用，如果要用，得有足够理由。示意图如下：
 
-.. image:: http://zhengkun.info/wp-content/uploads/2013/09/SVN_strict.png
+.. image:: http://wp.zhengkun.info/wp-content/uploads/2013/09/SVN_strict.png
 
 习惯上，如果项目很大，一般都会拆分为多个子项目，各个子项目的各个团队都分别按小团队作战，来避免上述情况，从而提高迭代速度。
 

@@ -50,7 +50,7 @@
 
 写了那么多废话，其实就是一切打扰你的人晚上都睡觉去了，而你不幸的在这个时候编程，虽然还是乐在其中，但其在白天岂不更好。
 
-.. image:: http://zhengkun.info/wp-content/uploads/2011/05/monster-under-the-moon-300x229.jpg
+.. image:: http://wp.zhengkun.info/wp-content/uploads/2011/05/monster-under-the-moon-300x229.jpg
 
 .. author:: default
 .. categories:: 随便写写
