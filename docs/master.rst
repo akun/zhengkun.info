@@ -4,6 +4,7 @@ Sitemap
 .. toctree::
    :maxdepth: 1
 
+   2014/08/12/no_meeting
    2014/07/06/how-to-understanding-vcs
    2014/03/28/do-opensource-project-will-use-some-service/index
    2014/02/20/howto-code-review/index
