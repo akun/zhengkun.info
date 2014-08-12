@@ -11,7 +11,7 @@ Python中的单元测试
 举个“栗子”
 ----------
 
-.. image:: http://wp.zhengkun.info/wp-content/uploads/2013/06/lizi.jpg
+.. image:: lizi.jpg
 
 偷懒，就直接拿Python官方文档中的例子来做说明好了;-)
 
@@ -90,12 +90,12 @@ test runner
 
 画个示例图，应该可以更好理解这除了test runner外的几个概念的关系吧：
 
-.. image:: http://wp.zhengkun.info/wp-content/uploads/2013/06/concept_relationship.png
+.. image:: concept_relationship.png
 
 程序执行
 --------
 
-.. image:: http://wp.zhengkun.info/wp-content/uploads/2013/06/order.png
+.. image:: order.png
 
 上面这个图，就是一个TestCase执行测试代码的时候，程序执行的过程吧，想要了解更直接些，直接运行下面这个程序，看下输出信息应该就明白了。
 

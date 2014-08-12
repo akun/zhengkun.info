@@ -133,7 +133,7 @@ rst如下：
 
 效果如下：
 
-.. image:: http://pm.readthedocs.org/_images/ball1.gif
+.. image:: ball1.gif
 
 插入代码
 ~~~~~~~~

@@ -16,7 +16,7 @@ GitHub：https://github.com/
 
 就不废话了。如果不想折腾成Mantis、Bugzilla、Trac、Redmine那种更为复杂的issues跟踪管理，也完全可以用来做开源项目的issues跟踪管理。
 
-.. image:: http://pm.readthedocs.org/_images/small-GitHub.png
+.. image:: small-GitHub.png
 
 持续集成
 --------
@@ -29,7 +29,7 @@ Travis CI：https://travis-ci.org/
 
 有关单元测试的内容，具体可以看 `单元测试 <http://pm.readthedocs.org/unittest/index.html>`_ 。
 
-.. image:: http://pm.readthedocs.org/_images/small-Travis-CI.png
+.. image:: small-Travis-CI.png
 
 代码质量检查
 ------------
@@ -42,7 +42,7 @@ Landscape：https://landscape.io/
 
 不过，这个服务只针对Python作为编程语言的项目，其它编程语言估计也有类似的服务吧（没有的话，估计也有一帮程序员正做着吧）。
 
-.. image:: http://pm.readthedocs.org/_images/small-Landscape.png
+.. image:: small-Landscape.png
 
 测试覆盖率检查
 --------------
@@ -53,7 +53,7 @@ Coveralls：https://coveralls.io/
 
 只要开源项目中，写好相关配置，就会自动按配置，根据持续集成中单元测试结果，得到测试覆盖率。
 
-.. image:: http://pm.readthedocs.org/_images/small-Coveralls.png
+.. image:: small-Coveralls.png
 
 文档托管
 --------
@@ -66,7 +66,7 @@ Read the Docs：https://readthedocs.org/
 
 有关Sphinx的编写，具体可以看 `用Sphinx编写技术文档 <http://pm.readthedocs.org/doc/sphinx.html>`_ 。
 
-.. image:: http://pm.readthedocs.org/_images/small-ReadTheDocs.png
+.. image:: small-ReadTheDocs.png
 
 最后
 ----

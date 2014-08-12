@@ -5,7 +5,7 @@
 
 http://www.ruanyifeng.com/blog/copyright/
 
-.. image:: http://wp.zhengkun.info/wp-content/uploads/2011/09/bg2011092202-300x151.jpg
+.. image:: bg2011092202-300x151.jpg
 
 （图片说明：电视辩论时，谁是盗版党一目了然。）
 

@@ -26,7 +26,7 @@
 
 比如下图：
 
-.. image:: http://wp.zhengkun.info/wp-content/uploads/2011/11/cdraw.png
+.. image:: cdraw.png
 
 .. author:: default
 .. categories:: 随便写写, 随便摘录

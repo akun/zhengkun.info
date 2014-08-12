@@ -1,7 +1,7 @@
 忽悠的力量
 ==========
 
-.. image:: http://wp.zhengkun.info/wp-content/uploads/2011/04/bug-feature-300x225.jpg
+.. image:: bug-feature-300x225.jpg
 
 忽悠的好，产品中的bug也能说成是特性。。
 
