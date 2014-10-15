@@ -4,6 +4,7 @@ Sitemap
 .. toctree::
    :maxdepth: 1
 
+   2014/10/15/software_development_process
    2014/10/12/subversion2git
    2014/10/09/git_usage
    2014/08/12/no_meeting
