@@ -147,7 +147,8 @@ Step 8 - 完成迁移
 
    git clone git@github.com:akun/west.git
 
-有关 Git 日常的使用，可以参考 :doc:`usage`
+有关 Git 日常的使用，可以参考 \
+`Git 常用命令用法：程序员的场景 <http://zhengkun.info/2014/10/09/git_usage.html>`_
 
 遗留问题
 --------
