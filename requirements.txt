@@ -1,2 +1,2 @@
-Tinkerer>=1.4.2
+Tinkerer>=1.6.0
 rutherford>=0.7.1
