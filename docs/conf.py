@@ -1,5 +1,8 @@
-# -*- coding: utf-8 -*-
+#!/usr/bin/env python
+# coding=utf-8
 
+
+from __future__ import unicode_literals
 import datetime
 
 import tinkerer
@@ -13,7 +16,7 @@ import tinkerer.paths
 project = 'akun\'s blog'
 
 # Change this to the tagline of your blog
-tagline = u'软体动物鼻涕虫的各种随便'
+tagline = '软体动物鼻涕虫的各种随便'
 
 # Change this to the description of your blog
 description = 'This is an awesome blog'
@@ -58,11 +61,11 @@ rss_generate_full_posts = False
 rss_max_items = 0
 
 # rutherford config
-blog_date = year
+blog_date = '%d' % year
 rights = 'This work is licensed under a Creative Commons Attribution 4.0 License: http://creativecommons.org/licenses/by/4.0/'
 
 # Number of blog posts per page
-posts_per_page = 10
+posts_per_page = 1
 
 # Character use to replace non-alphanumeric characters in slug
 slug_word_separator = '_'
@@ -103,4 +106,4 @@ release = tinkerer.__version__
 html_title = project
 html_use_index = False
 html_show_sourcelink = False
-html_add_permalinks = None
+html_add_permalinks = ''
