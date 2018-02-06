@@ -4,6 +4,7 @@ Sitemap
 .. toctree::
    :maxdepth: 1
 
+   2018/02/07/py2_py3_with_tox
    2015/06/18/python_namespace
    2014/10/15/software_development_process
    2014/10/12/subversion2git
